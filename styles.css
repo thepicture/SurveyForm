@@ -1,12 +1,32 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body {
     height: 100vh;
     background: white;
-    background: linear-gradient(to right, rgba(0,0,0,.1), rgba(0,0,0,.3)), linear-gradient(to right, rgba(255,0,0,.5), rgba(100,0,255,.5));
-    background: linear-gradient(to right, rgba(0,0,0,.1), rgba(0,0,0,.3)), linear-gradient(to right, rgba(255,0,0,.5), rgba(100,0,255,.5)), url("https://live.staticflickr.com/873/41432298791_344175f2ad_k_d.jpg") no-repeat fixed;
+    background: linear-gradient(to right, rgba(0,0,0,.1), rgba(0,0,0,.3)), linear-gradient(to right, rgba(0,0,255,.2), rgba(100,0,255,.5));
+    background: linear-gradient(to right, rgba(0,0,0,.1), rgba(0,0,0,.3)), linear-gradient(to right, rgba(0,0,255,.2), rgba(100,0,255,.5)), url("https://live.staticflickr.com/873/41432298791_344175f2ad_k_d.jpg") no-repeat fixed;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    position: absolute;
+    left: 5em;
+    right: 5em;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Ubuntu';
+    padding-bottom: .5em;
+}
+
+p {
+    font-family: 'Lora';
 }
