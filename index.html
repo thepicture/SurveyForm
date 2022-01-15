@@ -21,10 +21,28 @@
         <form action=""
               method="post"
               id="survey-form">
-            <label><p>Name</p>
+            <label id="name-label">
+                <p>Name</p>
                 <input type="text"
                        placeholder="Enter name"
-                       id="name">
+                       id="name"
+                       required>
+            </label>
+            <label id="email-label">
+                <p>Email</p>
+                <input type="email"
+                       placeholder="Enter email"
+                       id="email"
+                       required>
+            </label>
+            <label id="number-label">
+                <p>Enter satisfy level from 0 to 10 <em>(Not required)</em></p>
+                <input type="number"
+                       min="0"
+                       max="10"
+                       step="1"
+                       placeholder="Enter satisfy level"
+                       id="number">
             </label>
         </form>
     </main>

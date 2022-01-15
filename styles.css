@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    color: white;
     font-family: 'Lora';
 }
 
@@ -24,6 +23,7 @@ main {
 
 header h1, header p {
     text-align: center;
+    color: white;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -37,6 +37,7 @@ p {
 
 form p {
     padding-bottom: .5em;
+    padding-top: .5em;
 }
 
 form {
@@ -47,6 +48,7 @@ form {
 
 label {
     text-align: left;
+    color: white;
 }
 
 input {
@@ -55,8 +57,5 @@ input {
     border-radius: .2em;
     height: 2em;
     width: 100%;
-}
-
-input::placeholder {
     padding-left: .5em;
 }
