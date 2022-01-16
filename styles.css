@@ -62,7 +62,6 @@ input, select {
 
 fieldset {
     margin-top: .5em;
-    margin-bottom: .5em;
     border: transparent;
     color: white;
 }
@@ -84,4 +83,10 @@ fieldset label {
     vertical-align: middle;
     line-height: 1.5em;
     margin-left: .5em;
+}
+
+textarea {
+    width: 100%;
+    padding-left: .5em;
+    padding-top: .5em;
 }
