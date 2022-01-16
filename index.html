@@ -45,14 +45,45 @@
                        id="number">
             </label>
             <label>
-                <p>What do you like the most? <em>(Not required)</em></p>
-                <select id="dropdown">
-                    <option disabled selected>Select an option</option>
+                <p>What do you like the most?</p>
+                <select id="dropdown"
+                        required>
+                    <option disabled
+                            selected>Select an option</option>
                     <option value="contests">Contests</option>
                     <option value="design">Design</option>
                     <option value="exercises">Exercises</option>
-                </option>
+                    </option>
+                </select>
             </label>
+            <fieldset>
+                <legend>What should we improve?</legend>
+
+                <div>
+                    <input type="radio"
+                           value="speed"
+                           id="speed"
+                           name="improve">
+                    <label for="speed">Speed</label>
+                </div>
+                <div>
+                    <input type="radio"
+                           value="access"
+                           id="access"
+                           name="improve">
+                    <label for="access">
+                        Accessibility</label>
+                </div>
+                <div>
+                    <input type="radio"
+                           value="nothing"
+                           id="nothing"
+                           name="improve"
+                           checked>
+                    <label for="nothing">
+                        Nothing</label>
+                </div>
+            </fieldset>
         </form>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
