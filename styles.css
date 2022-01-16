@@ -75,7 +75,7 @@ fieldset div {
     display: flex;
 }
 
-input[type="radio"] {
+input[type="radio"], input[type="checkbox"] {
     width: unset;
     display: unset;
 }
