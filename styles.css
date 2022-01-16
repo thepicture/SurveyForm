@@ -51,7 +51,7 @@ label {
     color: white;
 }
 
-input {
+input, select {
     display: block;
     border: transparent;
     border-radius: .2em;
